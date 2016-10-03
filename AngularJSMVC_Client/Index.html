@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html ng-app="MyApp">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/jquery-1.9.0.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-route.js"></script> 
+    <script src="service.js"></script>
+    <script src="cadastro.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav role="navigation" class="navbar navbar-inverse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#Home">Home</a></li>
+                <li><a href="#Add">Adicionar</a></li>
+                <li><a href="#Edit">Editar</a></li>
+                <li><a href="#Delete">Excluir</a></li>
+            </ul>
+        </nav>
+    
+        <div ng-view>
+
+        </div>
+        <h3 style="margin-top:40px;" class="text-center text-info"> 2016 © William Picanço - SPA com AngularJS 1.X + ASP.NET WEB API</h3>
+        
+    </div>
+
+</body>
+</html>

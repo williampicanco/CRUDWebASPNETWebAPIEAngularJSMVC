@@ -1,0 +1,36 @@
+﻿<h1 class="text-center text-danger">Excluir Cliente</h1>
+<br />
+<div class="row">
+    <div class="col-md-3 col-md-offset-1">
+        <h3 class="text-danger">Selecione o Cliente</h3>
+        <hr />
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                {{selectedItem}}
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li ng-repeat="a in clis">
+                    <a ng-click="dropboxitemselected(a)">{{a.Nome}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <form ng-show="isDeleteItemVisible">
+            <div class="form-group">
+                <label for="inputEmail">Nome</label>
+                <input type="text" ng-disabled="true" ng-model="nome" class="form-control input-lg" placeholder="Nome do Cliente">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Telefone</label>
+                <input type="text" ng-disabled="true" ng-model="tel" class="form-control input-lg" placeholder="Telefone do Cliente">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Endereço</label>
+                <input type="text" ng-disabled="true" ng-model="end" class="form-control input-lg" placeholder="Endereço do Cliente">
+            </div>
+            <button ng-click="DeleteCli()" class="btn btn-danger form-control input-lg">Excluir</button>
+        </form>
+    </div>
+</div>

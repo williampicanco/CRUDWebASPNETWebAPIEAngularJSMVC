@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDWebASPNETWebAPIEAngularJSMVC", "CRUDWebASPNETWebAPIEAngularJSMVC\CRUDWebASPNETWebAPIEAngularJSMVC.csproj", "{BE0CC89D-5457-4208-AB70-94648569A01A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSMVC_Client", "AngularJSMVC_Client\AngularJSMVC_Client.csproj", "{42CDAC33-E062-4611-BF28-B3827CB92B2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE0CC89D-5457-4208-AB70-94648569A01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE0CC89D-5457-4208-AB70-94648569A01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE0CC89D-5457-4208-AB70-94648569A01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE0CC89D-5457-4208-AB70-94648569A01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42CDAC33-E062-4611-BF28-B3827CB92B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42CDAC33-E062-4611-BF28-B3827CB92B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42CDAC33-E062-4611-BF28-B3827CB92B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42CDAC33-E062-4611-BF28-B3827CB92B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
